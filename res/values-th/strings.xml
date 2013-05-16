@@ -17,79 +17,186 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name" msgid="1928079047368929634">"แกลเลอรี"</string>
-  <string-array name="months_abbreviated">
-    <item msgid="9066537518640988368">"ม.ค."</item>
-    <item msgid="4680813504147866612">"ก.พ."</item>
-    <item msgid="1934595560893153574">"มี.ค."</item>
-    <item msgid="9020107212348500338">"เม.ย."</item>
-    <item msgid="5734859077892484949">"พ.ค."</item>
-    <item msgid="8546985030184126468">"มิ.ย."</item>
-    <item msgid="3639654472839533748">"ก.ค."</item>
-    <item msgid="8434242278630875235">"ส.ค."</item>
-    <item msgid="8493511009771049442">"ก.ย."</item>
-    <item msgid="685181459001441496">"ต.ค."</item>
-    <item msgid="6662413035764778250">"พ.ย."</item>
-    <item msgid="3784870986696899313">"ธ.ค."</item>
-  </string-array>
     <string name="gadget_title" msgid="259405922673466798">"กรอบภาพ"</string>
     <string name="details_ms" msgid="940634969189855292">"%1$02d:%2$02d"</string>
     <string name="details_hms" msgid="3215779248094151255">"%1$d:%2$02d:%3$02d"</string>
-    <string name="movie_view_label" msgid="3697303290960009886">"ภาพยนตร์"</string>
+    <string name="movie_view_label" msgid="3526526872644898229">"โปรแกรมเล่นวิดีโอ"</string>
     <string name="loading_video" msgid="4013492720121891585">"กำลังโหลดวิดีโอ..."</string>
+    <string name="loading_image" msgid="1200894415793838191">"กำลังโหลดภาพ..."</string>
+    <string name="loading_account" msgid="928195413034552034">"กำลังดาวน์โหลดบัญชี…"</string>
     <string name="resume_playing_title" msgid="8996677350649355013">"เล่นวิดีโอต่อ"</string>
     <string name="resume_playing_message" msgid="5184414518126703481">"ต้องการเล่นต่อจาก %s หรือไม่"</string>
     <string name="resume_playing_resume" msgid="3847915469173852416">"เล่นต่อ"</string>
+    <string name="loading" msgid="7038208555304563571">"กำลังโหลด…"</string>
+    <string name="fail_to_load" msgid="8394392853646664505">"ไม่สามารถโหลด"</string>
+    <string name="fail_to_load_image" msgid="6155388718549782425">"ไม่สามารถโหลดภาพ"</string>
+    <string name="no_thumbnail" msgid="284723185546429750">"ไม่มีภาพขนาดย่อ"</string>
     <string name="resume_playing_restart" msgid="5471008499835769292">"เริ่มต้นใหม่"</string>
-    <string name="camera" msgid="2730811566218090802">"กล้อง"</string>
-    <string name="crop_save_text" msgid="8140440041190264400">"บันทึก"</string>
-    <string name="crop_discard_text" msgid="5303657888280340603">"ยกเลิก"</string>
-    <string name="multiface_crop_help" msgid="3127018992717032779">"แตะที่ใบหน้าเพื่อเริ่ม"</string>
+    <string name="crop_save_text" msgid="152200178986698300">"ตกลง"</string>
+    <string name="ok" msgid="5296833083983263293">"ตกลง"</string>
+    <string name="multiface_crop_help" msgid="2554690102655855657">"แตะใบหน้าเพื่อเริ่มต้น"</string>
     <string name="saving_image" msgid="7270334453636349407">"กำลังบันทึกภาพ..."</string>
+    <string name="filtershow_saving_image" msgid="6659463980581993016">"กำลังบันทึกภาพลงใน <xliff:g id="ALBUM_NAME">%1$s</xliff:g>…"</string>
+    <string name="save_error" msgid="6857408774183654970">"ไม่สามารถบันทึกภาพที่ตัดได้"</string>
     <string name="crop_label" msgid="521114301871349328">"ตัดภาพ"</string>
-    <string name="running_face_detection" msgid="4094707964259463039">"โปรดรอสักครู่..."</string>
+    <string name="trim_label" msgid="274203231381209979">"ตัดวิดีโอ"</string>
+    <string name="select_image" msgid="7841406150484742140">"เลือกรูปภาพ"</string>
+    <string name="select_video" msgid="4859510992798615076">"เลือกวิดีโอ"</string>
+    <string name="select_item" msgid="2816923896202086390">"เลือกรายการ"</string>
+    <string name="select_album" msgid="1557063764849434077">"เลือกอัลบั้ม"</string>
+    <string name="select_group" msgid="6744208543323307114">"เลือกกลุ่ม"</string>
     <string name="set_image" msgid="2331476809308010401">"ตั้งค่าภาพเป็น"</string>
-    <string name="wallpaper" msgid="9222901738515471972">"กำลังตั้งค่าวอลเปเปอร์ โปรดรอสักครู่..."</string>
+    <string name="set_wallpaper" msgid="8491121226190175017">"ตั้งค่าวอลเปเปอร์"</string>
+    <string name="wallpaper" msgid="140165383777262070">"กำลังตั้งค่าวอลเปเปอร์..."</string>
     <string name="camera_setas_wallpaper" msgid="797463183863414289">"วอลเปเปอร์"</string>
-    <string name="details_ok" msgid="6848594369924424312">"ตกลง"</string>
-    <string name="loading_new" msgid="7893793767294787579">"กำลังโหลดอัลบั้มและภาพถ่ายใหม่"</string>
-    <string name="initializing" msgid="2374228157398540466">"กำลังโหลด"</string>
-    <string name="pick_prompt" msgid="576608096149718121">"เลือกรายการจากคอลเล็กชันของคุณ"</string>
-    <string name="no_items" msgid="3117870234034732172">"ไม่มีรายการในคอลเล็กชันของคุณ"</string>
-    <string name="pick" msgid="7248789132035843128">"เลือก"</string>
     <string name="delete" msgid="2839695998251824487">"ลบ"</string>
-    <string name="confirm_delete" msgid="5731757674837098707">"ยืนยันการลบ"</string>
+  <plurals name="delete_selection">
+    <item quantity="one" msgid="6453379735401083732">"ลบรายการที่เลือกหรือไม่"</item>
+    <item quantity="other" msgid="5874316486520635333">"ลบรายการที่เลือกหรือไม่"</item>
+  </plurals>
+    <string name="confirm" msgid="8646870096527848520">"ยืนยัน"</string>
     <string name="cancel" msgid="3637516880917356226">"ยกเลิก"</string>
     <string name="share" msgid="3619042788254195341">"แบ่งปัน"</string>
-    <string name="no_sd_card" msgid="2666880203366429182">"การ์ด SD ถูกถอดออกหรือไม่มีอยู่"</string>
-    <string name="no_usb_storage" msgid="9156805088935882242">"ยกเลิกการต่อเชื่อมที่เก็บข้อมูล USB แล้ว"</string>
-    <string name="more" msgid="1526449516720792387">"เพิ่มเติม"</string>
-    <string name="select_all" msgid="8623593677101437957">"เลือกทั้งหมด"</string>
-    <string name="deselect_all" msgid="7397531298370285581">"ยกเลิกการเลือกทั้งหมด"</string>
+    <string name="share_panorama" msgid="2569029972820978718">"แบ่งปันภาพพาโนรามา"</string>
+    <string name="share_as_photo" msgid="8959225188897026149">"แบ่งปันเป็นรูปภาพ"</string>
+    <string name="deleted" msgid="6795433049119073871">"ลบแล้ว"</string>
+    <string name="undo" msgid="2930873956446586313">"เลิกทำ"</string>
+    <string name="select_all" msgid="3403283025220282175">"เลือกทั้งหมด"</string>
+    <string name="deselect_all" msgid="5758897506061723684">"ยกเลิกการเลือกทั้งหมด"</string>
     <string name="slideshow" msgid="4355906903247112975">"การนำเสนอภาพนิ่ง"</string>
-    <string name="menu" msgid="1819649153380636719">"เมนู"</string>
     <string name="details" msgid="8415120088556445230">"รายละเอียด"</string>
-    <string name="album_selected" msgid="3441280740465738452">"อัลบั้มที่เลือก"</string>
-    <string name="item_selected" msgid="6137767503817908841">"รายการที่เลือก"</string>
-    <string name="albums_selected" msgid="1815225920157190983">"อัลบั้มที่เลือก"</string>
-    <string name="items_selected" msgid="8548754404879264861">"รายการที่เลือก"</string>
-    <string name="album" msgid="5198388817734336004">"อัลบั้ม"</string>
-    <string name="start" msgid="4316892252528232165">"เริ่มต้น"</string>
-    <string name="end" msgid="3645506196012005500">"จบ"</string>
-    <string name="location" msgid="3432705876921618314">"สถานที่"</string>
-    <string name="location_unknown" msgid="6310139243003315255">"สถานที่ที่ไม่รู้จัก"</string>
-    <string name="title" msgid="7622928349908052569">"ชื่อ"</string>
-    <string name="type" msgid="4329478642546287192">"ประเภท"</string>
-    <string name="taken_on" msgid="3269486910757192479">"ถ่ายเมื่อ"</string>
-    <string name="added_on" msgid="5194321063173381814">"เพิ่มแล้ว"</string>
+    <string name="details_title" msgid="2611396603977441273">"%1$d จาก %2$d รายการ:"</string>
+    <string name="close" msgid="5585646033158453043">"ปิด"</string>
+    <string name="switch_to_camera" msgid="7280111806675169992">"สลับเป็นกล้องถ่ายรูป"</string>
+  <plurals name="number_of_items_selected">
+    <item quantity="zero" msgid="2142579311530586258">"เลือกไว้ %1$d"</item>
+    <item quantity="one" msgid="2478365152745637768">"เลือกไว้ %1$d"</item>
+    <item quantity="other" msgid="754722656147810487">"เลือกไว้ %1$d"</item>
+  </plurals>
+  <plurals name="number_of_albums_selected">
+    <item quantity="zero" msgid="749292746814788132">"เลือกไว้ %1$d"</item>
+    <item quantity="one" msgid="6184377003099987825">"เลือกไว้ %1$d"</item>
+    <item quantity="other" msgid="53105607141906130">"เลือกไว้ %1$d"</item>
+  </plurals>
+  <plurals name="number_of_groups_selected">
+    <item quantity="zero" msgid="3466388370310869238">"เลือกไว้ %1$d"</item>
+    <item quantity="one" msgid="5030162638216034260">"เลือกไว้ %1$d"</item>
+    <item quantity="other" msgid="3512041363942842738">"เลือกไว้ %1$d"</item>
+  </plurals>
     <string name="show_on_map" msgid="6157544221201750980">"แสดงบนแผนที่"</string>
-    <string name="rotate_left" msgid="7412075232752726934">"หมุนไปทางซ้าย"</string>
-    <string name="rotate_right" msgid="7340681085011826618">"หมุนไปทางขวา"</string>
-    <string name="crop" msgid="7970750655414797277">"ตัดภาพ"</string>
+    <string name="rotate_left" msgid="5888273317282539839">"หมุนไปทางซ้าย"</string>
+    <string name="rotate_right" msgid="6776325835923384839">"หมุนไปทางขวา"</string>
+    <string name="no_such_item" msgid="5315144556325243400">"ไม่พบรายการ"</string>
+    <string name="edit" msgid="1502273844748580847">"แก้ไข"</string>
+    <string name="process_caching_requests" msgid="8722939570307386071">"กำลังประมวลผลคำขอให้แคช"</string>
+    <string name="caching_label" msgid="4521059045896269095">"กำลังแคช..."</string>
+    <string name="crop_action" msgid="3427470284074377001">"ตัด"</string>
+    <string name="trim_action" msgid="703098114452883524">"ตัดแต่ง"</string>
     <string name="set_as" msgid="3636764710790507868">"ตั้งค่าเป็น"</string>
-    <string name="set_as_wallpaper" msgid="5704970402417438945">"ตั้งเป็นวอลเปเปอร์"</string>
-    <string name="item" msgid="636303673288563698">"รายการ"</string>
-    <string name="items" msgid="6403254716052150916">"รายการ"</string>
-    <string name="around" msgid="2223906282110417412">"รอบๆ"</string>
-    <string name="date_unknown" msgid="4277113471036917386">"ไม่รู้จักวันที่"</string>
-    <string name="video_err" msgid="7917736494827857757">"เล่นวิดีโอไม่ได้"</string>
+    <string name="video_err" msgid="7003051631792271009">"ไม่สามารถเล่นวิดีโอ"</string>
+    <string name="group_by_location" msgid="316641628989023253">"ตามตำแหน่ง"</string>
+    <string name="group_by_time" msgid="9046168567717963573">"ตามเวลา"</string>
+    <string name="group_by_tags" msgid="3568731317210676160">"ตามแท็ก"</string>
+    <string name="group_by_faces" msgid="1566351636227274906">"จัดกลุ่มตามใบหน้าบุคคล"</string>
+    <string name="group_by_album" msgid="1532818636053818958">"ตามอัลบั้ม"</string>
+    <string name="group_by_size" msgid="153766174950394155">"ตามขนาด"</string>
+    <string name="untagged" msgid="7281481064509590402">"ยกเลิกการติดแท็ก"</string>
+    <string name="no_location" msgid="4043624857489331676">"ไม่มีสถานที่"</string>
+    <string name="no_connectivity" msgid="7164037617297293668">"ไม่สามารถระบุบางตำแหน่งได้เนื่องจากปัญหาเกี่ยวกับเครือข่าย"</string>
+    <string name="sync_album_error" msgid="1020688062900977530">"ไม่สามารถดาวน์โหลดรูปภาพในอัลบั้มนี้ โปรดลองอีกครั้งในภายหลัง"</string>
+    <string name="show_images_only" msgid="7263218480867672653">"เฉพาะภาพ"</string>
+    <string name="show_videos_only" msgid="3850394623678871697">"เฉพาะวิดีโอ"</string>
+    <string name="show_all" msgid="6963292714584735149">"ภาพและวิดีโอ"</string>
+    <string name="appwidget_title" msgid="6410561146863700411">"แกลเลอรีรูปภาพ"</string>
+    <string name="appwidget_empty_text" msgid="1228925628357366957">"ไม่มีรูปภาพ"</string>
+    <string name="crop_saved" msgid="1595985909779105158">"บันทึกภาพที่ครอบตัดไว้ที่ <xliff:g id="FOLDER_NAME">%s</xliff:g>"</string>
+    <string name="no_albums_alert" msgid="4111744447491690896">"ไม่มีอัลบั้ม"</string>
+    <string name="empty_album" msgid="4542880442593595494">"O ภาพ/วิดีโอ"</string>
+    <string name="picasa_posts" msgid="1497721615718760613">"โพสต์"</string>
+    <string name="make_available_offline" msgid="5157950985488297112">"ทำให้ใช้งานได้แบบออฟไลน์"</string>
+    <string name="sync_picasa_albums" msgid="8522572542111169872">"รีเฟรช"</string>
+    <string name="done" msgid="217672440064436595">"เสร็จสิ้น"</string>
+    <string name="sequence_in_set" msgid="7235465319919457488">"%1$d จาก %2$d รายการ:"</string>
+    <string name="title" msgid="7622928349908052569">"ชื่อ"</string>
+    <string name="description" msgid="3016729318096557520">"คำอธิบาย"</string>
+    <string name="time" msgid="1367953006052876956">"เวลา"</string>
+    <string name="location" msgid="3432705876921618314">"สถานที่"</string>
+    <string name="path" msgid="4725740395885105824">"เส้นทาง"</string>
+    <string name="width" msgid="9215847239714321097">"ความกว้าง"</string>
+    <string name="height" msgid="3648885449443787772">"ความสูง"</string>
+    <string name="orientation" msgid="4958327983165245513">"การวางแนว"</string>
+    <string name="duration" msgid="8160058911218541616">"ระยะเวลา"</string>
+    <string name="mimetype" msgid="8024168704337990470">"ประเภท MIME"</string>
+    <string name="file_size" msgid="8486169301588318915">"ขนาดไฟล์"</string>
+    <string name="maker" msgid="7921835498034236197">"ยี่ห้อ"</string>
+    <string name="model" msgid="8240207064064337366">"รุ่น"</string>
+    <string name="flash" msgid="2816779031261147723">"แฟลช"</string>
+    <string name="aperture" msgid="5920657630303915195">"รูรับแสง"</string>
+    <string name="focal_length" msgid="1291383769749877010">"ระยะโฟกัส"</string>
+    <string name="white_balance" msgid="1582509289994216078">"สมดุลแสงขาว"</string>
+    <string name="exposure_time" msgid="3990163680281058826">"เวลารับแสง"</string>
+    <string name="iso" msgid="5028296664327335940">"ISO"</string>
+    <string name="unit_mm" msgid="1125768433254329136">"มม."</string>
+    <string name="manual" msgid="6608905477477607865">"ปรับเอง"</string>
+    <string name="auto" msgid="4296941368722892821">"อัตโนมัติ"</string>
+    <string name="flash_on" msgid="7891556231891837284">"แฟลชทำงาน"</string>
+    <string name="flash_off" msgid="1445443413822680010">"ไม่เปิดแฟลช"</string>
+    <string name="ffx_original" msgid="372686331501281474">"ต้นฉบับ"</string>
+    <string name="ffx_vintage" msgid="8348759951363844780">"วินเทจ"</string>
+    <string name="ffx_instant" msgid="726968618715691987">"ทันใจ"</string>
+    <string name="ffx_bleach" msgid="8946700451603478453">"ทำให้สีซีด"</string>
+    <string name="ffx_blue_crush" msgid="6034283412305561226">"สีน้ำเงิน"</string>
+    <string name="ffx_bw_contrast" msgid="517988490066217206">"ขาวดำ"</string>
+    <string name="ffx_punch" msgid="1343475517872562639">"พันช์"</string>
+    <string name="ffx_x_process" msgid="4779398678661811765">"ครอสโพรเซส"</string>
+    <string name="ffx_washout" msgid="4594160692176642735">"ลาเต้"</string>
+    <string name="ffx_washout_color" msgid="8034075742195795219">"หิน"</string>
+  <plurals name="make_albums_available_offline">
+    <item quantity="one" msgid="2171596356101611086">"กำลังทำให้ใช้งานอัลบั้มแบบออฟไลน์ได้"</item>
+    <item quantity="other" msgid="4948604338155959389">"กำลังทำให้ใช้งานอัลบั้มแบบออฟไลน์ได้"</item>
+  </plurals>
+    <string name="try_to_set_local_album_available_offline" msgid="2184754031896160755">"รายการนี้จัดเก็บภายในเครื่องและสามารถใช้งานแบบออฟไลน์"</string>
+    <string name="set_label_all_albums" msgid="4581863582996336783">"อัลบั้มทั้งหมด"</string>
+    <string name="set_label_local_albums" msgid="6698133661656266702">"อัลบั้มในเครื่อง"</string>
+    <string name="set_label_mtp_devices" msgid="1283513183744896368">"อุปกรณ์ MTP"</string>
+    <string name="set_label_picasa_albums" msgid="5356258354953935895">"อัลบั้มใน Picasa"</string>
+    <string name="free_space_format" msgid="8766337315709161215">"<xliff:g id="BYTES">%s</xliff:g> ว่าง"</string>
+    <string name="size_below" msgid="2074956730721942260">"ไม่เกิน <xliff:g id="SIZE">%1$s</xliff:g>"</string>
+    <string name="size_above" msgid="5324398253474104087">"<xliff:g id="SIZE">%1$s</xliff:g> ขึ้นไป"</string>
+    <string name="size_between" msgid="8779660840898917208">"<xliff:g id="MIN_SIZE">%1$s</xliff:g> ถึง <xliff:g id="MAX_SIZE">%2$s</xliff:g>"</string>
+    <string name="Import" msgid="3985447518557474672">"นำเข้า"</string>
+    <string name="import_complete" msgid="3875040287486199999">"นำเข้าเสร็จสมบูรณ์"</string>
+    <string name="import_fail" msgid="8497942380703298808">"นำเข้าไม่สำเร็จ"</string>
+    <string name="camera_connected" msgid="916021826223448591">"เชื่อมต่อกล้องถ่ายรูปแล้ว"</string>
+    <string name="camera_disconnected" msgid="2100559901676329496">"หยุดการเชื่อมต่อกล้อง"</string>
+    <string name="click_import" msgid="6407959065464291972">"แตะที่นี่เพื่อนำเข้า"</string>
+    <string name="widget_type_album" msgid="6013045393140135468">"เลือกอัลบั้ม"</string>
+    <string name="widget_type_shuffle" msgid="8594622705019763768">"สุ่มภาพทั้งหมด"</string>
+    <string name="widget_type_photo" msgid="6267065337367795355">"เลือกภาพ"</string>
+    <string name="widget_type" msgid="1364653978966343448">"เลือกภาพ"</string>
+    <string name="slideshow_dream_name" msgid="6915963319933437083">"สไลด์โชว์"</string>
+    <string name="albums" msgid="7320787705180057947">"อัลบั้ม"</string>
+    <string name="times" msgid="2023033894889499219">"เวลา"</string>
+    <string name="locations" msgid="6649297994083130305">"สถานที่"</string>
+    <string name="people" msgid="4114003823747292747">"บุคคล"</string>
+    <string name="tags" msgid="5539648765482935955">"แท็ก"</string>
+    <string name="group_by" msgid="4308299657902209357">"จัดกลุ่มตาม"</string>
+    <string name="settings" msgid="1534847740615665736">"การตั้งค่า"</string>
+    <string name="add_account" msgid="4271217504968243974">"เพิ่มบัญชี"</string>
+    <string name="folder_camera" msgid="4714658994809533480">"กล้องถ่ายรูป"</string>
+    <string name="folder_download" msgid="7186215137642323932">"ดาวน์โหลด"</string>
+    <string name="folder_edited_online_photos" msgid="6278215510236800181">"รูปภาพออนไลน์ที่แก้ไขแล้ว"</string>
+    <string name="folder_imported" msgid="2773581395524747099">"นำเข้าแล้ว"</string>
+    <string name="folder_screenshot" msgid="7200396565864213450">"ภาพหน้าจอ"</string>
+    <string name="help" msgid="7368960711153618354">"ความช่วยเหลือ"</string>
+    <string name="no_external_storage_title" msgid="2408933644249734569">"ไม่มีที่เก็บข้อมูล"</string>
+    <string name="no_external_storage" msgid="95726173164068417">"ไม่มีที่จัดเก็บข้อมูลภายนอกที่สามารถใช้ได้"</string>
+    <string name="switch_photo_filmstrip" msgid="8227883354281661548">"มุมมองฟิล์มภาพยนตร์"</string>
+    <string name="switch_photo_grid" msgid="3681299459107925725">"มุมมองตาราง"</string>
+    <string name="trimming" msgid="9122385768369143997">"กำลังตัด"</string>
+    <string name="please_wait" msgid="7296066089146487366">"โปรดรอสักครู่"</string>
+    <string name="save_into" msgid="4960537214388766062">"กำลังบันทึกวิดีโอที่ตัดลงในอัลบั้ม:"</string>
+    <string name="trim_too_short" msgid="751593965620665326">"ไม่สามารถตัด : วิดีโอปลายทางสั้นเกินไป"</string>
+    <string name="pano_progress_text" msgid="1586851614586678464">"กำลังแสดงภาพพาโนรามา"</string>
+    <string name="save" msgid="613976532235060516">"บันทึก"</string>
 </resources>

@@ -15,15 +15,17 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.cooliris.media.tests">
+    package="com.android.gallery3d.tests">
 
     <application>
         <uses-library android:name="android.test.runner" />
     </application>
 
-    <instrumentation android:name="com.cooliris.media.Gallery3DLauncher"
-        android:targetPackage="com.cooliris.media"
-        android:label="Gallery3D Launch Performance">
-    </instrumentation>
+    <instrumentation android:name="android.test.InstrumentationTestRunner"
+             android:targetPackage="com.android.gallery3d"
+             android:label="Tests for GalleryNew3D application."/>
 
+    <instrumentation android:name="com.android.gallery3d.exif.ExifTestRunner"
+            android:targetPackage="com.android.gallery3d"
+            android:label="Tests for ExifParser."/>
 </manifest>

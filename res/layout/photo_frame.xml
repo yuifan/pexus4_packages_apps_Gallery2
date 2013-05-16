@@ -15,30 +15,18 @@
 -->
 
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/appwidget_bg">
-
-    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="3dip">
-       
-		<FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:padding="1px"
-            android:foreground="@drawable/photo_inner">
-     
-		    <ImageView
-		        android:id="@+id/photo"
-		        android:layout_width="match_parent"
-		        android:layout_height="match_parent"
-		        android:scaleType="centerCrop"
-		        android:cropToPadding="true" />
-		        
-        </FrameLayout>		        
-	        
-    </FrameLayout>        
-
+        android:paddingTop="4dp"
+        android:paddingBottom="23dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp">
+    <ImageView android:id="@+id/photo"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:cropToPadding="true"
+            android:background="@drawable/border_photo_frame_widget"/>
 </FrameLayout>
